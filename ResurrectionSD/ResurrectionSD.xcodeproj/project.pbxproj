@@ -1,0 +1,964 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		414BC3602637088200EE1827 /* 23_min_trial.json in Resources */ = {isa = PBXBuildFile; fileRef = 414BC35F2637088200EE1827 /* 23_min_trial.json */; };
+		414BC3612637088200EE1827 /* 23_min_trial.json in Resources */ = {isa = PBXBuildFile; fileRef = 414BC35F2637088200EE1827 /* 23_min_trial.json */; };
+		41AACAC9262DDC2000F0BC3E /* five_min_trial.json in Resources */ = {isa = PBXBuildFile; fileRef = 41AACAC8262DDC2000F0BC3E /* five_min_trial.json */; };
+		41F12A46261BBCD300C07028 /* ResurrectionSDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F12A45261BBCD300C07028 /* ResurrectionSDApp.swift */; };
+		41F12A48261BBCD300C07028 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F12A47261BBCD300C07028 /* ContentView.swift */; };
+		41F12A4A261BBCD500C07028 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41F12A49261BBCD500C07028 /* Assets.xcassets */; };
+		41F12A4D261BBCD500C07028 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41F12A4C261BBCD500C07028 /* Preview Assets.xcassets */; };
+		41F12A58261BBCD600C07028 /* ResurrectionSDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F12A57261BBCD600C07028 /* ResurrectionSDTests.swift */; };
+		41F12A63261BBCD600C07028 /* ResurrectionSDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F12A62261BBCD600C07028 /* ResurrectionSDUITests.swift */; };
+		41F12A68261BBCD600C07028 /* ResurrectionSD WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 41F12A67261BBCD600C07028 /* ResurrectionSD WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		41F12A6D261BBCD800C07028 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41F12A6C261BBCD800C07028 /* Assets.xcassets */; };
+		41F12A74261BBCD800C07028 /* ResurrectionSD WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 41F12A73261BBCD800C07028 /* ResurrectionSD WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		41F12A79261BBCD800C07028 /* ResurrectionSDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F12A78261BBCD800C07028 /* ResurrectionSDApp.swift */; };
+		41F12A7B261BBCD800C07028 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F12A7A261BBCD800C07028 /* ContentView.swift */; };
+		41F12A7D261BBCD800C07028 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F12A7C261BBCD800C07028 /* NotificationController.swift */; };
+		41F12A7F261BBCD800C07028 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F12A7E261BBCD800C07028 /* NotificationView.swift */; };
+		41F12A81261BBCD800C07028 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F12A80261BBCD800C07028 /* ComplicationController.swift */; };
+		41F12A83261BBCD900C07028 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41F12A82261BBCD900C07028 /* Assets.xcassets */; };
+		41F12A86261BBCD900C07028 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41F12A85261BBCD900C07028 /* Preview Assets.xcassets */; };
+		41F12AA2261BBE5800C07028 /* ViewModelPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F12AA1261BBE5800C07028 /* ViewModelPhone.swift */; };
+		41F12AA9261BBF3700C07028 /* ViewModelWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F12AA8261BBF3700C07028 /* ViewModelWatch.swift */; };
+		41F12AB0261BC7B000C07028 /* JsonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F12AAF261BC7B000C07028 /* JsonModel.swift */; };
+		41F12AB7261BC87700C07028 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F12AB6261BC87700C07028 /* CodableBundleExtension.swift */; };
+		41F12ABE261BCE4500C07028 /* PatientData.json in Resources */ = {isa = PBXBuildFile; fileRef = 41F12ABD261BCE4500C07028 /* PatientData.json */; };
+		41F12AC5261BD8C800C07028 /* JsonExample.json in Resources */ = {isa = PBXBuildFile; fileRef = 41F12AC4261BD8C800C07028 /* JsonExample.json */; };
+		41F12ACD261BE2BB00C07028 /* VitalInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F12ACC261BE2BB00C07028 /* VitalInfo.swift */; };
+		41F12AD4261BE43500C07028 /* BPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F12AD3261BE43500C07028 /* BPView.swift */; };
+		41FC4FB4261D47CB00D86012 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FC4FB3261D47CB00D86012 /* PlaySound.swift */; };
+		41FC4FB5261D47CB00D86012 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FC4FB3261D47CB00D86012 /* PlaySound.swift */; };
+		41FC4FBC261D48BF00D86012 /* cardiovascular.wav in Resources */ = {isa = PBXBuildFile; fileRef = 41FC4FBB261D48BF00D86012 /* cardiovascular.wav */; };
+		41FC4FBD261D48BF00D86012 /* cardiovascular.wav in Resources */ = {isa = PBXBuildFile; fileRef = 41FC4FBB261D48BF00D86012 /* cardiovascular.wav */; };
+		41FC4FC4261D48C700D86012 /* oxygenation.wav in Resources */ = {isa = PBXBuildFile; fileRef = 41FC4FC3261D48C700D86012 /* oxygenation.wav */; };
+		41FC4FC5261D48C700D86012 /* oxygenation.wav in Resources */ = {isa = PBXBuildFile; fileRef = 41FC4FC3261D48C700D86012 /* oxygenation.wav */; };
+		41FC4FCC261D48D700D86012 /* high.wav in Resources */ = {isa = PBXBuildFile; fileRef = 41FC4FCB261D48D700D86012 /* high.wav */; };
+		41FC4FCD261D48D700D86012 /* high.wav in Resources */ = {isa = PBXBuildFile; fileRef = 41FC4FCB261D48D700D86012 /* high.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41F12A54261BBCD500C07028 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41F12A3A261BBCD300C07028 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41F12A41261BBCD300C07028;
+			remoteInfo = ResurrectionSD;
+		};
+		41F12A5F261BBCD600C07028 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41F12A3A261BBCD300C07028 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41F12A41261BBCD300C07028;
+			remoteInfo = ResurrectionSD;
+		};
+		41F12A69261BBCD600C07028 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41F12A3A261BBCD300C07028 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41F12A66261BBCD600C07028;
+			remoteInfo = "ResurrectionSD WatchKit App";
+		};
+		41F12A75261BBCD800C07028 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41F12A3A261BBCD300C07028 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41F12A72261BBCD800C07028;
+			remoteInfo = "ResurrectionSD WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		41F12A8E261BBCD900C07028 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				41F12A74261BBCD800C07028 /* ResurrectionSD WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41F12A92261BBCD900C07028 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				41F12A68261BBCD600C07028 /* ResurrectionSD WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		414A646F2628D69900259A28 /* ResurrectionSD.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ResurrectionSD.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		414BC35F2637088200EE1827 /* 23_min_trial.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 23_min_trial.json; sourceTree = "<group>"; };
+		41AACAC8262DDC2000F0BC3E /* five_min_trial.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = five_min_trial.json; sourceTree = "<group>"; };
+		41F12A42261BBCD300C07028 /* ResurrectionSD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResurrectionSD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41F12A45261BBCD300C07028 /* ResurrectionSDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResurrectionSDApp.swift; sourceTree = "<group>"; };
+		41F12A47261BBCD300C07028 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		41F12A49261BBCD500C07028 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41F12A4C261BBCD500C07028 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		41F12A4E261BBCD500C07028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41F12A53261BBCD500C07028 /* ResurrectionSDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResurrectionSDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41F12A57261BBCD600C07028 /* ResurrectionSDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResurrectionSDTests.swift; sourceTree = "<group>"; };
+		41F12A59261BBCD600C07028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41F12A5E261BBCD600C07028 /* ResurrectionSDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResurrectionSDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41F12A62261BBCD600C07028 /* ResurrectionSDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResurrectionSDUITests.swift; sourceTree = "<group>"; };
+		41F12A64261BBCD600C07028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41F12A67261BBCD600C07028 /* ResurrectionSD WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ResurrectionSD WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41F12A6C261BBCD800C07028 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41F12A6E261BBCD800C07028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41F12A73261BBCD800C07028 /* ResurrectionSD WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ResurrectionSD WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41F12A78261BBCD800C07028 /* ResurrectionSDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResurrectionSDApp.swift; sourceTree = "<group>"; };
+		41F12A7A261BBCD800C07028 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		41F12A7C261BBCD800C07028 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		41F12A7E261BBCD800C07028 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		41F12A80261BBCD800C07028 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		41F12A82261BBCD900C07028 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41F12A85261BBCD900C07028 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		41F12A87261BBCD900C07028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41F12A88261BBCD900C07028 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		41F12AA1261BBE5800C07028 /* ViewModelPhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelPhone.swift; sourceTree = "<group>"; };
+		41F12AA8261BBF3700C07028 /* ViewModelWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelWatch.swift; sourceTree = "<group>"; };
+		41F12AAF261BC7B000C07028 /* JsonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonModel.swift; sourceTree = "<group>"; };
+		41F12AB6261BC87700C07028 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
+		41F12ABD261BCE4500C07028 /* PatientData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PatientData.json; sourceTree = "<group>"; };
+		41F12AC4261BD8C800C07028 /* JsonExample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = JsonExample.json; sourceTree = "<group>"; };
+		41F12ACC261BE2BB00C07028 /* VitalInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitalInfo.swift; sourceTree = "<group>"; };
+		41F12AD3261BE43500C07028 /* BPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BPView.swift; sourceTree = "<group>"; };
+		41FC4FB3261D47CB00D86012 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		41FC4FBB261D48BF00D86012 /* cardiovascular.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cardiovascular.wav; sourceTree = "<group>"; };
+		41FC4FC3261D48C700D86012 /* oxygenation.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = oxygenation.wav; sourceTree = "<group>"; };
+		41FC4FCB261D48D700D86012 /* high.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = high.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41F12A3F261BBCD300C07028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41F12A50261BBCD500C07028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41F12A5B261BBCD600C07028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41F12A70261BBCD800C07028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41F12A39261BBCD300C07028 = {
+			isa = PBXGroup;
+			children = (
+				41F12A44261BBCD300C07028 /* ResurrectionSD */,
+				41F12A56261BBCD600C07028 /* ResurrectionSDTests */,
+				41F12A61261BBCD600C07028 /* ResurrectionSDUITests */,
+				41F12A6B261BBCD600C07028 /* ResurrectionSD WatchKit App */,
+				41F12A77261BBCD800C07028 /* ResurrectionSD WatchKit Extension */,
+				41F12A43261BBCD300C07028 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41F12A43261BBCD300C07028 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41F12A42261BBCD300C07028 /* ResurrectionSD.app */,
+				41F12A53261BBCD500C07028 /* ResurrectionSDTests.xctest */,
+				41F12A5E261BBCD600C07028 /* ResurrectionSDUITests.xctest */,
+				41F12A67261BBCD600C07028 /* ResurrectionSD WatchKit App.app */,
+				41F12A73261BBCD800C07028 /* ResurrectionSD WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41F12A44261BBCD300C07028 /* ResurrectionSD */ = {
+			isa = PBXGroup;
+			children = (
+				41F12A45261BBCD300C07028 /* ResurrectionSDApp.swift */,
+				41F12A47261BBCD300C07028 /* ContentView.swift */,
+				41F12A49261BBCD500C07028 /* Assets.xcassets */,
+				41F12A4E261BBCD500C07028 /* Info.plist */,
+				41F12A4B261BBCD500C07028 /* Preview Content */,
+				41F12AA1261BBE5800C07028 /* ViewModelPhone.swift */,
+				414A646F2628D69900259A28 /* ResurrectionSD.playground */,
+			);
+			path = ResurrectionSD;
+			sourceTree = "<group>";
+		};
+		41F12A4B261BBCD500C07028 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				41F12A4C261BBCD500C07028 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		41F12A56261BBCD600C07028 /* ResurrectionSDTests */ = {
+			isa = PBXGroup;
+			children = (
+				41F12A57261BBCD600C07028 /* ResurrectionSDTests.swift */,
+				41F12A59261BBCD600C07028 /* Info.plist */,
+			);
+			path = ResurrectionSDTests;
+			sourceTree = "<group>";
+		};
+		41F12A61261BBCD600C07028 /* ResurrectionSDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				41F12A62261BBCD600C07028 /* ResurrectionSDUITests.swift */,
+				41F12A64261BBCD600C07028 /* Info.plist */,
+			);
+			path = ResurrectionSDUITests;
+			sourceTree = "<group>";
+		};
+		41F12A6B261BBCD600C07028 /* ResurrectionSD WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				41F12A6C261BBCD800C07028 /* Assets.xcassets */,
+				41F12A6E261BBCD800C07028 /* Info.plist */,
+			);
+			path = "ResurrectionSD WatchKit App";
+			sourceTree = "<group>";
+		};
+		41F12A77261BBCD800C07028 /* ResurrectionSD WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				41F12ACB261BE29D00C07028 /* Views */,
+				41F12A78261BBCD800C07028 /* ResurrectionSDApp.swift */,
+				41F12AC4261BD8C800C07028 /* JsonExample.json */,
+				41F12A7A261BBCD800C07028 /* ContentView.swift */,
+				414BC35F2637088200EE1827 /* 23_min_trial.json */,
+				41FC4FC3261D48C700D86012 /* oxygenation.wav */,
+				41AACAC8262DDC2000F0BC3E /* five_min_trial.json */,
+				41FC4FB3261D47CB00D86012 /* PlaySound.swift */,
+				41FC4FCB261D48D700D86012 /* high.wav */,
+				41FC4FBB261D48BF00D86012 /* cardiovascular.wav */,
+				41F12A7C261BBCD800C07028 /* NotificationController.swift */,
+				41F12A7E261BBCD800C07028 /* NotificationView.swift */,
+				41F12ABD261BCE4500C07028 /* PatientData.json */,
+				41F12A80261BBCD800C07028 /* ComplicationController.swift */,
+				41F12A82261BBCD900C07028 /* Assets.xcassets */,
+				41F12A87261BBCD900C07028 /* Info.plist */,
+				41F12A88261BBCD900C07028 /* PushNotificationPayload.apns */,
+				41F12A84261BBCD900C07028 /* Preview Content */,
+				41F12AA8261BBF3700C07028 /* ViewModelWatch.swift */,
+				41F12AAF261BC7B000C07028 /* JsonModel.swift */,
+				41F12AB6261BC87700C07028 /* CodableBundleExtension.swift */,
+			);
+			path = "ResurrectionSD WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		41F12A84261BBCD900C07028 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				41F12A85261BBCD900C07028 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		41F12ACB261BE29D00C07028 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				41F12ACC261BE2BB00C07028 /* VitalInfo.swift */,
+				41F12AD3261BE43500C07028 /* BPView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41F12A41261BBCD300C07028 /* ResurrectionSD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41F12A93261BBCD900C07028 /* Build configuration list for PBXNativeTarget "ResurrectionSD" */;
+			buildPhases = (
+				41F12A3E261BBCD300C07028 /* Sources */,
+				41F12A3F261BBCD300C07028 /* Frameworks */,
+				41F12A40261BBCD300C07028 /* Resources */,
+				41F12A92261BBCD900C07028 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41F12A6A261BBCD600C07028 /* PBXTargetDependency */,
+			);
+			name = ResurrectionSD;
+			productName = ResurrectionSD;
+			productReference = 41F12A42261BBCD300C07028 /* ResurrectionSD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41F12A52261BBCD500C07028 /* ResurrectionSDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41F12A96261BBCD900C07028 /* Build configuration list for PBXNativeTarget "ResurrectionSDTests" */;
+			buildPhases = (
+				41F12A4F261BBCD500C07028 /* Sources */,
+				41F12A50261BBCD500C07028 /* Frameworks */,
+				41F12A51261BBCD500C07028 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41F12A55261BBCD500C07028 /* PBXTargetDependency */,
+			);
+			name = ResurrectionSDTests;
+			productName = ResurrectionSDTests;
+			productReference = 41F12A53261BBCD500C07028 /* ResurrectionSDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		41F12A5D261BBCD600C07028 /* ResurrectionSDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41F12A99261BBCD900C07028 /* Build configuration list for PBXNativeTarget "ResurrectionSDUITests" */;
+			buildPhases = (
+				41F12A5A261BBCD600C07028 /* Sources */,
+				41F12A5B261BBCD600C07028 /* Frameworks */,
+				41F12A5C261BBCD600C07028 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41F12A60261BBCD600C07028 /* PBXTargetDependency */,
+			);
+			name = ResurrectionSDUITests;
+			productName = ResurrectionSDUITests;
+			productReference = 41F12A5E261BBCD600C07028 /* ResurrectionSDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		41F12A66261BBCD600C07028 /* ResurrectionSD WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41F12A8F261BBCD900C07028 /* Build configuration list for PBXNativeTarget "ResurrectionSD WatchKit App" */;
+			buildPhases = (
+				41F12A65261BBCD600C07028 /* Resources */,
+				41F12A8E261BBCD900C07028 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41F12A76261BBCD800C07028 /* PBXTargetDependency */,
+			);
+			name = "ResurrectionSD WatchKit App";
+			productName = "ResurrectionSD WatchKit App";
+			productReference = 41F12A67261BBCD600C07028 /* ResurrectionSD WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		41F12A72261BBCD800C07028 /* ResurrectionSD WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41F12A8B261BBCD900C07028 /* Build configuration list for PBXNativeTarget "ResurrectionSD WatchKit Extension" */;
+			buildPhases = (
+				41F12A6F261BBCD800C07028 /* Sources */,
+				41F12A70261BBCD800C07028 /* Frameworks */,
+				41F12A71261BBCD800C07028 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ResurrectionSD WatchKit Extension";
+			productName = "ResurrectionSD WatchKit Extension";
+			productReference = 41F12A73261BBCD800C07028 /* ResurrectionSD WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41F12A3A261BBCD300C07028 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					41F12A41261BBCD300C07028 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					41F12A52261BBCD500C07028 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 41F12A41261BBCD300C07028;
+					};
+					41F12A5D261BBCD600C07028 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 41F12A41261BBCD300C07028;
+					};
+					41F12A66261BBCD600C07028 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					41F12A72261BBCD800C07028 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 41F12A3D261BBCD300C07028 /* Build configuration list for PBXProject "ResurrectionSD" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41F12A39261BBCD300C07028;
+			productRefGroup = 41F12A43261BBCD300C07028 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41F12A41261BBCD300C07028 /* ResurrectionSD */,
+				41F12A52261BBCD500C07028 /* ResurrectionSDTests */,
+				41F12A5D261BBCD600C07028 /* ResurrectionSDUITests */,
+				41F12A66261BBCD600C07028 /* ResurrectionSD WatchKit App */,
+				41F12A72261BBCD800C07028 /* ResurrectionSD WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41F12A40261BBCD300C07028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				414BC3602637088200EE1827 /* 23_min_trial.json in Resources */,
+				41FC4FCC261D48D700D86012 /* high.wav in Resources */,
+				41FC4FC4261D48C700D86012 /* oxygenation.wav in Resources */,
+				41FC4FBC261D48BF00D86012 /* cardiovascular.wav in Resources */,
+				41F12A4D261BBCD500C07028 /* Preview Assets.xcassets in Resources */,
+				41F12A4A261BBCD500C07028 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41F12A51261BBCD500C07028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41F12A5C261BBCD600C07028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41F12A65261BBCD600C07028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41F12A6D261BBCD800C07028 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41F12A71261BBCD800C07028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41FC4FC5261D48C700D86012 /* oxygenation.wav in Resources */,
+				41FC4FBD261D48BF00D86012 /* cardiovascular.wav in Resources */,
+				41F12A86261BBCD900C07028 /* Preview Assets.xcassets in Resources */,
+				414BC3612637088200EE1827 /* 23_min_trial.json in Resources */,
+				41AACAC9262DDC2000F0BC3E /* five_min_trial.json in Resources */,
+				41FC4FCD261D48D700D86012 /* high.wav in Resources */,
+				41F12A83261BBCD900C07028 /* Assets.xcassets in Resources */,
+				41F12AC5261BD8C800C07028 /* JsonExample.json in Resources */,
+				41F12ABE261BCE4500C07028 /* PatientData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41F12A3E261BBCD300C07028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41F12AA2261BBE5800C07028 /* ViewModelPhone.swift in Sources */,
+				41FC4FB4261D47CB00D86012 /* PlaySound.swift in Sources */,
+				41F12A48261BBCD300C07028 /* ContentView.swift in Sources */,
+				41F12A46261BBCD300C07028 /* ResurrectionSDApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41F12A4F261BBCD500C07028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41F12A58261BBCD600C07028 /* ResurrectionSDTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41F12A5A261BBCD600C07028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41F12A63261BBCD600C07028 /* ResurrectionSDUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41F12A6F261BBCD800C07028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41F12AB7261BC87700C07028 /* CodableBundleExtension.swift in Sources */,
+				41F12A7D261BBCD800C07028 /* NotificationController.swift in Sources */,
+				41F12A7B261BBCD800C07028 /* ContentView.swift in Sources */,
+				41F12ACD261BE2BB00C07028 /* VitalInfo.swift in Sources */,
+				41FC4FB5261D47CB00D86012 /* PlaySound.swift in Sources */,
+				41F12A81261BBCD800C07028 /* ComplicationController.swift in Sources */,
+				41F12A79261BBCD800C07028 /* ResurrectionSDApp.swift in Sources */,
+				41F12AD4261BE43500C07028 /* BPView.swift in Sources */,
+				41F12AA9261BBF3700C07028 /* ViewModelWatch.swift in Sources */,
+				41F12AB0261BC7B000C07028 /* JsonModel.swift in Sources */,
+				41F12A7F261BBCD800C07028 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41F12A55261BBCD500C07028 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41F12A41261BBCD300C07028 /* ResurrectionSD */;
+			targetProxy = 41F12A54261BBCD500C07028 /* PBXContainerItemProxy */;
+		};
+		41F12A60261BBCD600C07028 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41F12A41261BBCD300C07028 /* ResurrectionSD */;
+			targetProxy = 41F12A5F261BBCD600C07028 /* PBXContainerItemProxy */;
+		};
+		41F12A6A261BBCD600C07028 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41F12A66261BBCD600C07028 /* ResurrectionSD WatchKit App */;
+			targetProxy = 41F12A69261BBCD600C07028 /* PBXContainerItemProxy */;
+		};
+		41F12A76261BBCD800C07028 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41F12A72261BBCD800C07028 /* ResurrectionSD WatchKit Extension */;
+			targetProxy = 41F12A75261BBCD800C07028 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		41F12A89261BBCD900C07028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		41F12A8A261BBCD900C07028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		41F12A8C261BBCD900C07028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ResurrectionSD WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = WR4F52Q9AW;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "ResurrectionSD WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vanderbilt.ResurrectionSD.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		41F12A8D261BBCD900C07028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ResurrectionSD WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = WR4F52Q9AW;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "ResurrectionSD WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vanderbilt.ResurrectionSD.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		41F12A90261BBCD900C07028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WR4F52Q9AW;
+				IBSC_MODULE = ResurrectionSD_WatchKit_Extension;
+				INFOPLIST_FILE = "ResurrectionSD WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = vanderbilt.ResurrectionSD.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		41F12A91261BBCD900C07028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WR4F52Q9AW;
+				IBSC_MODULE = ResurrectionSD_WatchKit_Extension;
+				INFOPLIST_FILE = "ResurrectionSD WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = vanderbilt.ResurrectionSD.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		41F12A94261BBCD900C07028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ResurrectionSD/Preview Content\"";
+				DEVELOPMENT_TEAM = WR4F52Q9AW;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ResurrectionSD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vanderbilt.ResurrectionSD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41F12A95261BBCD900C07028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ResurrectionSD/Preview Content\"";
+				DEVELOPMENT_TEAM = WR4F52Q9AW;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ResurrectionSD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vanderbilt.ResurrectionSD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41F12A97261BBCD900C07028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WR4F52Q9AW;
+				INFOPLIST_FILE = ResurrectionSDTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vanderbilt.ResurrectionSDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ResurrectionSD.app/ResurrectionSD";
+			};
+			name = Debug;
+		};
+		41F12A98261BBCD900C07028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WR4F52Q9AW;
+				INFOPLIST_FILE = ResurrectionSDTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vanderbilt.ResurrectionSDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ResurrectionSD.app/ResurrectionSD";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41F12A9A261BBCD900C07028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WR4F52Q9AW;
+				INFOPLIST_FILE = ResurrectionSDUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vanderbilt.ResurrectionSDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ResurrectionSD;
+			};
+			name = Debug;
+		};
+		41F12A9B261BBCD900C07028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WR4F52Q9AW;
+				INFOPLIST_FILE = ResurrectionSDUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vanderbilt.ResurrectionSDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ResurrectionSD;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41F12A3D261BBCD300C07028 /* Build configuration list for PBXProject "ResurrectionSD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41F12A89261BBCD900C07028 /* Debug */,
+				41F12A8A261BBCD900C07028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41F12A8B261BBCD900C07028 /* Build configuration list for PBXNativeTarget "ResurrectionSD WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41F12A8C261BBCD900C07028 /* Debug */,
+				41F12A8D261BBCD900C07028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41F12A8F261BBCD900C07028 /* Build configuration list for PBXNativeTarget "ResurrectionSD WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41F12A90261BBCD900C07028 /* Debug */,
+				41F12A91261BBCD900C07028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41F12A93261BBCD900C07028 /* Build configuration list for PBXNativeTarget "ResurrectionSD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41F12A94261BBCD900C07028 /* Debug */,
+				41F12A95261BBCD900C07028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41F12A96261BBCD900C07028 /* Build configuration list for PBXNativeTarget "ResurrectionSDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41F12A97261BBCD900C07028 /* Debug */,
+				41F12A98261BBCD900C07028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41F12A99261BBCD900C07028 /* Build configuration list for PBXNativeTarget "ResurrectionSDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41F12A9A261BBCD900C07028 /* Debug */,
+				41F12A9B261BBCD900C07028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41F12A3A261BBCD300C07028 /* Project object */;
+}
